@@ -2,7 +2,7 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#A495D4));
   background-image: linear-gradient(to bottom, #ffffff, #A495D4);
   padding-bottom: 100px;
-  height: 49.9vh;
+  height: 51.2vh;
 }
 
 #zoe-section .col-sm-6 {
@@ -90,6 +90,11 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+body,
+html {
+  overflow-x: hidden;
 }
 
 .form {
