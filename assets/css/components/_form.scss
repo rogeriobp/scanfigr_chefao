@@ -1,0 +1,28 @@
+.form {
+    padding-bottom: 100px;
+
+    form {
+        position: relative;
+
+        .form-group {
+            display: flex;
+
+            .scanfigr-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: -10px;
+                height: 100%;
+                background-color: #4EE5A6;
+                border-color: #B4EAD5;
+                border: 0px none;
+                border-radius: 15px;
+
+                i {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
