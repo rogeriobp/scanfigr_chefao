@@ -133,4 +133,9 @@ html {
 .form form .form-group .scanfigr-btn i {
   margin-left: 10px;
 }
+
+#form-elements {
+  color: #3AECBC;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
