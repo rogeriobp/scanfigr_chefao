@@ -178,5 +178,62 @@ html {
   border-color: #CEC6ED;
   color: #60568C;
   border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 108px;
+}
+
+#status .state {
+  color: #707070;
+  margin-bottom: 12px;
+}
+
+#status .result {
+  color: #3AECBC;
+}
+
+#status .result #analise {
+  color: #EAB4B4;
+}
+
+#dashboardSite {
+  margin-bottom: 100px;
+}
+
+#dashboardSite h2 {
+  color: #CCCCCC;
+}
+
+#dashboardSite h3 {
+  color: #3AECBC;
+}
+
+#falta {
+  margin-bottom: 0;
+}
+
+#falta .col-sm-1 {
+  color: #707070;
+}
+
+.fluxo {
+  margin-bottom: 108px;
+}
+
+.return {
+  margin-bottom: 108px;
+}
+
+.return input {
+  background-color: white;
+  border-color: #707070;
+  border-radius: 15px;
+  height: 42px;
+  width: 264px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -31,13 +31,18 @@ function submitResult() {
     validadoDivP.textContent = "Agora, só precisamos de mais alguns dados para enviarmos o relatório. Não enviamos qualquer tipo de  spam, somente solucões, e em até 48 horas o seu relatório está pronto!"
     validadoDiv.appendChild(validadoDivP);
 
+    var validadoForm = document.createElement("form");
+    validadoForm.action = "../../dashboard.html";
+    validadoDiv.appendChild(validadoForm);
+
+
     var validadoDivForm = document.createElement("div");
     validadoDivForm.className = "form-group";
     validadoDivForm.id = "validadoDivForm";
-    validadoDiv.appendChild(validadoDivForm);
+    validadoForm.appendChild(validadoDivForm);
 
     document.getElementById('validado-texto').appendChild(validadoDiv);
-    document.getElementById('validadoDivForm').innerHTML = "<label for='validadoDivFormNome'>Qual seu nome?</label><input type='text' class='form-control' id='validadoDivFormNome' aria-describedby='validadoNomeInput' placeholder='Fulano da Silva Sauro'> <label for='validadoDivFormEmail'>Qual email podemos enviar o relatório?</label><input type='email' class='form-control' id='validadoDivFormEmail' aria-describedby='validadoEmailInput' placeholder='fulano@provedor.com.br'> <button type='button' class='btn scanfigr-btn-scan' id='scanfigr-button-scan' >Scaneie o meu site <i class='fas fa-chevron-right'></i></button>";
+    document.getElementById('validadoDivForm').innerHTML = "<label for='validadoDivFormNome'>Qual seu nome?</label><input type='text' class='form-control' id='validadoDivFormNome' aria-describedby='validadoNomeInput' placeholder='Fulano da Silva Sauro'> <label for='validadoDivFormEmail'>Qual email podemos enviar o relatório?</label><input type='email' class='form-control' id='validadoDivFormEmail' aria-describedby='validadoEmailInput' placeholder='fulano@provedor.com.br'> <button type='submit' class='btn scanfigr-btn-scan' id='scanfigr-button-scan' >Scaneie o meu site <i class='fas fa-chevron-right'></i></button>";
 
 
 }
