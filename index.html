@@ -73,11 +73,11 @@
             </div>
             <div class="row">
                 <div class="form col-sm-6 offset-sm-3">
-                    <form>
+                    <form action="/" method="GET">
                         <div class="form-group">
                             <input type="url" class="form-control" id="urlInput" aria-describedby="urlInput"
                                 placeholder="Insira a URL do seu Site">
-                            <button type="submit" class="btn scanfigr-btn">Scanfigr <i
+                            <button type="button" class="btn scanfigr-btn" onclick="getUrl();">Scanfigr <i
                                     class="fas fa-chevron-right"></i></button>
                         </div>
                     </form>
@@ -121,6 +121,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
+
+        <!-- CUSTOM JS-->
+        <script src="./assets/js/api.js"></script>
     </div>
 </body>
 
