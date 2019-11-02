@@ -1,0 +1,16 @@
+CREATE DATABASE scanfigr;
+
+CREATE TABLE contato (
+id MEDIUMINT  NOT NULL AUTO_INCREMENT,
+ip int,
+nome varchar(60),
+email varchar(60),
+data varchar(60),
+url varchar(100),
+ultimo_ip int,
+ultimo_nome varchar(60),
+ultimo_email varchar(60),
+ultimo_data varchar(60),
+ultimo_url varchar(100),
+    PRIMARY KEY (id)
+);

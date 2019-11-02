@@ -1,0 +1,74 @@
+	.url_contato{
+		font: bold 14 Ubuntu;
+		margin-bottom: 5%;
+	}
+ 	.p_contato{
+ 		font: bold 16 Ubuntu;
+ 		color: #3AECBC;
+ 	}
+ 	.h1_contato{
+ 		font: bold 32 Ubuntu;
+ 		color: #A495D4;
+ 	}
+ 	.p_text_contato{
+ 		max-width: 60%;
+ 		font: bold 12 Ubuntu;
+      color: #707070;
+ 	}
+ 	#input_contato_nome{
+ 		border: 1px solid #A495D4;
+		border-radius: 25px;
+		margin-bottom: 5%;
+ 	}
+
+ 	#input_contato_email{
+ 		border: 1px solid #A495D4;
+		border-radius: 25px;
+		margin-bottom: 5%;
+ 	}
+ 	.label_contato{
+ 		font: bold 16 Ubuntu;
+ 		text-align: center;
+ 		color: #A495D4;
+ 		margin-bottom: 0px;
+ 	}
+
+ 	.btn_contato{
+ 		font: bold 14 Ubuntu;
+ 		color: #60568C;
+ 		border: 1px solid #CEC6ED;
+		border-radius: 25px;
+		background-color: #A495D4;
+		padding: 5px 20px 5px 20px;
+ 	}
+ 	.img_contato{
+ 		width: 100%;
+ 		max-width: 100%; 
+		height: auto; 
+		display:block;
+ 	}
+
+ 	.div_text_contato{
+ 		margin-bottom: 5%;
+ 	}
+ 	.div_url_contato{
+ 		border: 1px solid #3AECBC;
+		border-radius: 25px;
+		background-color: #B4EAD5; 
+		padding: 2px 0px 6px 10px;
+ 		margin-bottom: 6%;
+ 	}
+    .div_url_p_contato{
+    	margin-bottom: 10%;
+    }
+    .div_princinpal{
+    	margin:0% 10% 0% 10%;
+    }
+
+    #span_glyphicon{
+	    border: 1px solid #B4EAD5;
+	    color: #22654C;
+	    background-color: #4EE5A6;
+	    float: right;
+	    padding: 5px 5px 5px 5px;
+    }
